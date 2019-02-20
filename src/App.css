@@ -23,6 +23,42 @@
   color: #61dafb;
 }
 
+.body {
+  padding: 20px;
+  display: -webkit-flex; /* Safari */
+  -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.discount {
+  color: red;
+}
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  max-lines: 2;
+  text-overflow: ellipsis;
+}
+.sub-title {
+  font-size: 13px;
+  margin-bottom: 10px;
+  color: grey;
+}
+
+.card {
+  padding: 10px;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  width: 200px;
+  margin: 10px;
+  color: cornsilk;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
